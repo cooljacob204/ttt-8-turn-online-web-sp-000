@@ -6,10 +6,6 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-def valid_move?(board, move)
-  
-end
-
 def position_taken?(board, move)
   if (board[move] == "X" or board[move] == "O")
     return TRUE
@@ -17,8 +13,13 @@ def position_taken?(board, move)
   return FALSE
 end
 
+def valid_move?(board, move)
+  move.to_i
+  if ((move < 9 && move > 8) ) 
+end
+
 def move(board, move, player = "X")
-  if ()
+  if()
 end
 
 
