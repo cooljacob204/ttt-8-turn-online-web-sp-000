@@ -36,7 +36,6 @@ def move(board, move, player = "X")
 end
 
 def turn(board)
-  board = ["","","","","","","","",""]
   turn = "X"
   loop do
     puts "Welcome to Tic Tac Toe!"
