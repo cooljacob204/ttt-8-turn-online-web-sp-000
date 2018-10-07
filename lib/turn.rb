@@ -35,7 +35,7 @@ def move(board, move, player = "X")
   end
 end
 
-def turn
+def turn(board)
   board = ["","","","","","","","",""]
   turn = "X"
   loop do
