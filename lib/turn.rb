@@ -37,7 +37,6 @@ end
 
 def turn(board)
   turn = "X"
-  puts "Welcome to Tic Tac Toe!"
   display_board(board)
   loop do
     puts "Please enter 1-9"
