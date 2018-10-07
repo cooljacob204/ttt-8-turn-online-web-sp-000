@@ -36,5 +36,7 @@ def turn
   board = ["","","","","","","","",""]
   loop
     puts "Welcome to Tic Tac Toe!"
+    display_board(board)
+
   end
 end
