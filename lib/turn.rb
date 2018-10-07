@@ -7,7 +7,7 @@ def display_board(board)
 end
 
 def input_to_index(move)
-  return  move = move.to_i - 1
+  return  move.to_i - 1
 end
 
 def position_taken?(board, move)
@@ -34,7 +34,6 @@ def move(board, move, player = "X")
     return move(board, move, player)
   end
 end
-
 
 def turn
   board = ["","","","","","","","",""]
