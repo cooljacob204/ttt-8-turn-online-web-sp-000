@@ -25,13 +25,8 @@ def valid_move?(board, move)
 end
 
 def move(board, move, player = "X")
-    board[move] = player
-    return board
-  else
-    puts "Invalide move, please enter again"
-    move = input_to_index(gets)
-    return move(board, move, player)
-  end
+  board[move] = player
+  return board
 end
 
 def turn(board)
