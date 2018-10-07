@@ -10,7 +10,7 @@ def valid_move?(board, move)
   
 end
 
-def move()
+def move(board, move, player = "X")
   
 end
 
