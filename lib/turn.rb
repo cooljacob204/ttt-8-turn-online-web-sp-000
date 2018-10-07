@@ -26,7 +26,7 @@ def move(board, move, player = "X")
     return board
   else
     puts "Invalide move, please enter again"
-    move = gets
+    move = input_to_index(gets)
     return move(board, move, player)
   end
 end
