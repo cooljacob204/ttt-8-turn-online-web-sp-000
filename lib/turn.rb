@@ -14,8 +14,8 @@ def position_taken?(board, move)
 end
 
 def valid_move?(board, move)
-  move.to_i
-  if ((move < 9 && move > 8) ) 
+  move = move.to_i - 1
+  if (move != -1 && ((move < 9 && move > 8) && !position_taken?(board, move)) ) 
 end
 
 def move(board, move, player = "X")
