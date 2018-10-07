@@ -10,6 +10,13 @@ def valid_move?(board, move)
   
 end
 
+def position_taken?(board, move)
+  if (board[move] == "X" or board[move] == "O")
+    return TRUE
+  end
+  return FALSE
+end
+
 def move(board, move, player = "X")
   if ()
 end
