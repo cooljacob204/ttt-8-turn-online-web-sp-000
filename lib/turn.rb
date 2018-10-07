@@ -36,15 +36,9 @@ def move(board, move, player = "X")
 end
 
 def turn(board)
-  loop do
-    puts "Please enter 1-9"
-    move = input_to_index(gets)
-    move(board, move, turn)
-    display_board(board)
-    if (turn == "X")
-      turn = "O"
-    else
-      turn = "X"
-    end
+  puts "Please enter 1-9"
+  move = input_to_index(gets)
+  move(board, move, turn)
+  display_board(board)
   end
 end
