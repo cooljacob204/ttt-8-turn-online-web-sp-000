@@ -41,7 +41,7 @@ def turn
     puts "Please enter 1-9"
     move = gets "Number:"
     move(board, move, turn)
-    
+    display_board(board)
     if (turn == "X")
       turn = "O"
     else
