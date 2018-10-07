@@ -6,6 +6,10 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
+def input_to_index(move)
+  return  move = move.to_i - 1
+end
+
 def position_taken?(board, move)
   if (board[move] == "X" or board[move] == "O")
     return TRUE
@@ -31,9 +35,6 @@ def move(board, move, player = "X")
   end
 end
 
-def input_to_index(move)
-  return  move = move.to_i - 1
-end
 
 def turn
   board = ["","","","","","","","",""]
