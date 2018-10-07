@@ -23,8 +23,13 @@ end
 def move(board, move, player = "X")
   move = move.to_i - 1
   if (valid_move?(board, move))
-    board[move]
-  end 
+    board[move] = player
+    return board
+  else
+    puts "Invalide move, please enter again"
+    move = gets "Move:"
+    return move(board, move, player)
+  end
 end
 
 
