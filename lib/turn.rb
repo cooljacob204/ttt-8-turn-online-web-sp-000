@@ -25,7 +25,6 @@ def valid_move?(board, move)
 end
 
 def move(board, move, player = "X")
-  if (valid_move?(board, move))
     board[move] = player
     return board
   else
@@ -40,7 +39,7 @@ def turn(board)
   move = gets
   move = input_to_index(move)
   
-  if valid_move?()
+  if valid_move?(board, move)
   move(board, move, turn)
   display_board(board)
 end
