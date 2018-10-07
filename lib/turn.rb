@@ -32,26 +32,6 @@ def move(board, move, player = "X")
   end
 end
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 def turn
   board = ["","","","","","","","",""]
   loop
