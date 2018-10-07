@@ -27,6 +27,7 @@ def move(board, move, player = "X")
   else
     puts "Invalide move, please enter again"
     move = gets
+    move = move.to_i - 1
     return move(board, move, player)
   end
 end
