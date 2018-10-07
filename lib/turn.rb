@@ -1,14 +1,17 @@
-display_board
+def display_board
+  puts 
+end
+
+
+def valid_move?
+  
+end
 
 
 
-valid_move?
-
-
-
-
-move
-
+def move
+  
+end
 
 
 
