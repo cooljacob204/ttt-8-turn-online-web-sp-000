@@ -11,7 +11,7 @@ def valid_move?(board, move)
 end
 
 def move(board, move, player = "X")
-  
+  if ()
 end
 
 
