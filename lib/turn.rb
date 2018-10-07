@@ -36,7 +36,6 @@ def move(board, move, player = "X")
 end
 
 def turn(board)
-  turn = "X"
   display_board(board)
   loop do
     puts "Please enter 1-9"
