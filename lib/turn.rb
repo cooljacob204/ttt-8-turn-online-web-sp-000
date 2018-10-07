@@ -42,8 +42,7 @@ def turn
     puts "Welcome to Tic Tac Toe!"
     display_board(board)
     puts "Please enter 1-9"
-    move = gets
-    move = move.to_i - 1
+    move = input_to_index(gets)
     move(board, move, turn)
     display_board(board)
     if (turn == "X")
