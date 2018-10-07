@@ -1,15 +1,15 @@
-def display_board
+def display_board(board)
   puts 
 end
 
 
-def valid_move?
+def valid_move?()
   
 end
 
 
 
-def move
+def move()
   
 end
 
