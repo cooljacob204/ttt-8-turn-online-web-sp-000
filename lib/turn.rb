@@ -49,5 +49,3 @@ def turn
     end
   end
 end
-
-turn()
