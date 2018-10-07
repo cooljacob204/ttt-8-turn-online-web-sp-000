@@ -21,7 +21,6 @@ def valid_move?(board, move)
 end
 
 def move(board, move, player = "X")
-  move = move.to_i - 1
   if (valid_move?(board, move))
     board[move] = player
     return board
