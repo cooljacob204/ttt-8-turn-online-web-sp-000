@@ -1,7 +1,8 @@
 #!/usr/bin/env ruby
 
 board = ["","","","","","","","",""]
-turn(board)
+
+puts "Welcome to Tic Tac Toe!"
 
 turn(board)
 turn(board)
